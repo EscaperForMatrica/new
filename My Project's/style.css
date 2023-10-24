@@ -1,0 +1,464 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo{
+    float: right;
+}
+
+#ib{
+    background-image: url(/home/abdurahman/Desktop/windows/Rectangle.png);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+
+#header a{
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 19.5px;
+    position: relative;
+    right: 400px;
+}
+
+#header ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+#header ul li{
+    list-style-type: none;
+    float: left;
+    margin: 40px;
+}
+
+#centertext p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: end;
+    margin-top: 0px;
+    padding-top: 22%;
+    text-align: center;
+}    
+
+#centertext a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30%;
+    font-size: 48px;
+}
+
+#centertext span{
+    padding-left: 32%;
+}
+
+#centertext input[type="button"] {
+    background-color: #4985FF;
+    border-radius: 30px;
+    color: aliceblue;
+    border: 1px;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: 75px;
+    right: 23%;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+#centertext input[type="button"]:hover {
+    box-shadow: 1px 12px 45px 50px rgba(162, 0, 255, 0.2) inset;
+    background: linear-gradient(0deg, rgba(144,0,255,1) 0%, rgba(138,13,253,1) 16%, rgba(45,224,225,1) 51%, rgba(45,56,253,1) 100%);
+}
+
+#centertext input[value] {
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+#block2text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#Photo div{
+    float:left;
+}
+
+#block2text .Parag{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#image2 div{
+    float: left;
+    padding-left: 16%;
+    padding-top: 40px;
+}
+
+#image2 h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 30%;
+    bottom: 50px;
+}
+
+#image2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22.19px;
+    position: relative;
+    left: 50px;
+    bottom: 55px;
+}
+
+#Block2 input[type="button"] {
+    border: 1px;
+    border-radius: 30px;
+    background-color: #4985FF;
+    width: 200px;
+    height: 45px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    right: 32%
+}
+
+#Block3{
+    height: 797px;
+    background-color: #E0E0E0;
+}
+
+#Osnova h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 250px;
+    padding-left: 18%;
+}
+
+#Osnova .Lorem{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+    position: relative;
+    top: 260px;
+    margin-left: 18%;
+}
+
+#Osnova a{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4985FF;
+    position: relative;
+    left: 18%;
+    bottom: 120px;
+}
+
+#Osnova img{
+    left: 50%;
+    position: relative;
+    bottom: 100px;
+}
+
+#Image1 div{
+    float: left;
+    padding-left: 8%;
+    position: relative;
+    bottom: 100px;
+    left: 15%;
+}
+
+#Image1 h2{
+    font-weight: 400;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 45%;
+    bottom: 70px;
+}
+
+#Image1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    position: relative;
+    bottom: 100px;
+}
+
+#Image1{
+    padding-top: 3%;
+
+}
+
+#Block4{
+    background-image: url(CSC/bba1.png);
+    height: 420px;
+}
+
+#Block4 h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    bottom: 455px;
+    padding-left: 20%;
+}
+
+#Block4 input[type="button"] {
+    border: 1px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: #4985FF;
+    width: 200px;
+    position: relative;
+    bottom: 570px;
+    height: 45px;
+    margin-left: 69%;
+    margin-bottom: 3%;
+}
+
+#Kart div{
+    float: left;
+    margin: 25px;
+    margin-left: 1%;
+    position: relative;
+    bottom: 560px;
+    left: 11%;
+}
+
+#Kart{
+    margin-left: 9%;
+}
+
+#Kart span{
+    color: #4985FF;
+}
+
+#Kart .Lorem5{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #999999;
+}
+
+#Kart a{
+    color: #4985FF;
+}
+
+.dop{
+    background-color: white;
+    height: 500px;
+}
+
+#Block5{
+    height: 776px;
+    background-color: #f6f6f6;
+}
+
+#Block5 h2{
+    color: #323232;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    right: 43%;
+    top: 20%;
+}
+
+#Block5 .Loremr{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #999999;
+    text-align: center;
+    position: relative;
+    right: 43%;
+    top: 17%;
+}
+
+#Photo div{
+    margin: 20px;
+    margin-left: 4%;
+}
+
+#Photo{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#Block5 input[type="button"] {
+    border: 1px;
+    border-radius: 30px;
+    background-color: #4985FF;
+    width: 200px;
+    height: 45px;
+    color: azure;
+    font-size: 16px;
+    margin-top: 20%;
+    position: relative;
+    right: 40%;
+    bottom: 5%;
+}
+
+#Block6{
+    background-image: url(CSC/3232323.png);
+    height: 570px;
+}
+
+#Block6 h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+#Block6 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    position: relative;
+    left: 10%;
+}
+
+#Block6 .num1{
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+#Block6 .num2{
+    margin-bottom: 9%;
+    margin-left: -33%;
+}
+
+#Block6 h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top: 220px;
+}
+
+#Block6 input[type="email"] {
+    margin-left: 35%;
+    position: relative;
+    bottom: 20%;
+    border-radius: 200px 0px 7px 200px;
+    height: 25px;
+    width: 273px;
+    text-align: center;
+    left: 7px;
+    top: 240px;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 3px 5px gray;
+}
+
+#Block6 input[type="button"] {
+    width: 127px;
+    height: 29px;
+    background-color: #4985FF;
+    color: aliceblue;
+    border-radius: 0px 200px 200px 0px;
+    border: 1px;
+    position: relative;
+    top: 240px;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px gray;
+}
+
+#Block6 .pp{
+    padding-top: 1%;
+    font-size: 12px;
+}
+
+.dop3{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dop1{
+    height: 413px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+#footer li{
+    list-style-type: none;
+    white-space: nowrap;
+    list-style-image: url(CSC/usesesese.png);
+}
+
+#footer a{
+    color: #999999;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    margin-left: 10px;
+    color: royalblue;
+}
+
+#footer div{
+    float: left;
+}
+
+#Lider{
+    position: relative;
+    top: 35%;
+    left: 21%;
+}
+
+.spisok2{
+    margin-left: 100px;
+}
+
+.spisok3{
+    margin-left: 100px;
+}
+
+.spisok4{
+    margin-left: 100px;
+}
+
+#footer .rus1{
+    list-style-image: url(CSC/envelope.png);
+}
+
+#footer .rus2{
+    list-style-image: url(CSC/call.png);
+}
+
+#footer .rus3{
+    list-style-image: url(CSC/placeholder.png);
+}
